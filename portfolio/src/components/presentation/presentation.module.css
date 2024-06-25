@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap");
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 50%;
+}
+
+.logo {
+    font-family: "Playfair Display SC", serif;
+    font-size: 14em;
+    color: #030303;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: x-large;
+    gap: 10px;
+}
+.title h1 {
+    margin: 0;
+    font-weight: bold;
+}
+.title h4 {
+    color: #030303a2;
+    margin: 0;
+}
+
+.network {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin-top: 30px;
+}
+
+.network a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #030303;
+    background-color: #f9f9f9;
+    box-shadow: 0px 2px 20px 0px #03030352;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 200ms;
+}
+
+.network a:hover {
+    transform: scale(1.1);
+    color: #030303bd;
+    transition: 200ms;
+}
+
+@media screen and (min-width: 280px) {
+    .presentation {
+        padding-top: 150px;
+        padding-bottom: 250px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        width: 100%;
+        background-color: transparent;
+    }
+
+    .logoCont {
+        display: flex;
+        justify-content: center;
+        align-content: flex-start;
+        width: 300px;
+        height: 250px;
+    }
+
+    .logo {
+        font-family: "Playfair Display SC", serif;
+        font-size: 10em;
+        color: #030303;
+        margin: 0;
+        padding: 0;
+    }
+
+    .title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: "Open Sans", sans-serif;
+        font-size: 15px;
+        gap: 10px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    @keyframes animateTitle {
+        0% {
+            color: #030303;
+        }
+        50% {
+            color: #0303036c;
+        }
+        100% {
+            color: #030303;
+        }
+    }
+
+    .logoCont {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        width: 400px;
+        height: 350px;
+    }
+
+    .logo {
+        font-family: "Playfair Display SC", serif;
+        font-size: 15em;
+        color: #030303;
+        margin: 0;
+        padding: 0;
+        animation: animateTitle 3s infinite;
+    }
+
+    .title {
+        font-size: 2em;
+    }
+
+    .presentation {
+        padding-top: 100px;
+        padding-bottom: 220px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        width: 90%;
+        background-color: transparent;
+    }
+}
