@@ -26,13 +26,12 @@ export default function Bata11() {
             <h5>(Aun en desarrollo)</h5>
           </div>
           <p className={style.projectText}>
-            Este es un sitio web creado para un grupo de jóvenes del que formo
-            parte, llamado "Exploradores Argentinos de Don Bosco". Este grupo se
-            dedica a formar buenos cristianos y honorables ciudadanos. El
-            proyecto se desarrolló en colaboración con Julian Llop (otro miembro
-            de este grupo) con la intención de mostrar las actividades que
-            realizamos, contar nuestra historia y agregar una sección de
-            registro para nuevos miembros.
+            Este sitio web fue creado para el grupo "Exploradores Argentinos de
+            Don Bosco", una organización dedicada a formar buenos cristianos y
+            honorables ciudadanos. El proyecto se desarrolló en colaboración con
+            Julian Llop, otro miembro del grupo, con el objetivo de mostrar las
+            actividades realizadas, contar la historia del grupo y agregar una
+            sección de registro para nuevos miembros.
           </p>
         </div>
         <div className={style.projectButtons}>
